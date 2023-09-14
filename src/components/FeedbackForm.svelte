@@ -51,7 +51,7 @@
   <RatingSelect on:rating-select={handleSelect} />
   <div class="input-group">
     <input type="text" on:input={handleInput} bind:value = {text} placeholder="Tell us something about svelte">
-    <Button disabled={btnDisabled} type="submit">Send</Button>
+    <Button disabled={btnDisabled} type="submit">Post</Button>
   </div>
   {#if message}
     <div class="message">
