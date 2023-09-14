@@ -45,12 +45,12 @@
 
 <Card>
   <header>
-    <h2>How would you rate your service with us?</h2>
+    <h2>What can you say about svelte?</h2>
   </header>
 <form on:submit|preventDefault={handleSubmit}>
   <RatingSelect on:rating-select={handleSelect} />
   <div class="input-group">
-    <input type="text" on:input={handleInput} bind:value = {text} placeholder="Tell us something that keeps you coming back">
+    <input type="text" on:input={handleInput} bind:value = {text} placeholder="Tell us something about svelte">
     <Button disabled={btnDisabled} type="submit">Send</Button>
   </div>
   {#if message}
