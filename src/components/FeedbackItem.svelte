@@ -41,7 +41,15 @@
     top: 10px;
     right: 20px;
     cursor: pointer;
-    background: none;
+    background: red;
     border: none;
+    padding:.5rem .6rem;
+    border-radius:50px;
+    color:white;
+    transition:.6s;
+
+  }
+  .close:hover{
+    background:black;
   }
 </style>

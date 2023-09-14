@@ -4,16 +4,16 @@ export const FeedbackStore = writable([
   {
     id: 1,
     rating: 10,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.",
+    text: "Learning svelte is fun and every developer ",
   },
   {
     id: 2,
     rating: 9,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.",
+    text: "Svelte is great as a framework to be added to you dev arsenal",
   },
   {
     id: 3,
     rating: 8,
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.",
+    text: "Svelte is twice as fast as react",
   },
 ]);
